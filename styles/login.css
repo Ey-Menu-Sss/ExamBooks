@@ -1,0 +1,90 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../Images/LoginBackImg.jpg");
+}
+.opacity{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+}
+.container{
+    width: 400px;
+    margin: 150px auto;
+    height: 400px;
+}
+.logo{
+    text-align: center;
+}
+.LogoImg{
+    width: 300px;
+}
+.form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.iconwithinput{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+i{
+    margin-left: 10px;
+}
+.username,
+.password{
+    padding: 0.5rem;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn{
+    width: 350px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+    color: #0D75FF;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: .3s ease-out;
+}
+.btn:hover{
+    background-color: #0D75FF;
+    color: white;
+    border-color: white;
+}
+.forgotPsw{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    text-align: end;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.error{
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: none;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Shelter</title>
+    <link rel="stylesheet" href="../styles/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="father-container">
+      <div class="nenaydeno">ничего не найдено😕</div>
+      <header id="header">
+        <div class="first">
+          <div class="logo">
+            <img src="../Images/Group 193.png" alt="" />
+          </div>
+          <div class="searchWrapper">
+            <i class="bx bx-search"></i>
+            <input type="text" class="search" placeholder="Search books" />
+          </div>
+          <div class="logout">
+            <img class="sun" src="../Images/Group.png" alt="" />
+            <button class="btn">Logout</button>
+          </div>
+        </div>
+      </header>
+      <div class="liniya"></div>
+      <div class="ShowResults">
+        <div class="results">
+          <h2>Showing <span class="count">0</span> Result(s)</h2>
+        </div>
+        <div class="orders">
+          <i class="bx bx-calendar-alt"></i>
+          <span class="order">Order by newest</span>
+        </div>
+      </div>
+      <div class="liniya"></div>
+      <div class="container">
+        <div class="bookmarks">
+          <div class="head">
+            <h1>Bookmarks</h1>
+            <br />
+            <p>If you don’t like to read, you haven’t found the right book</p>
+          </div>
+          <div class="body"></div>
+        </div>
+        <main>
+          <div class="books"></div>
+          <div class="pagination">
+            <ul>
+              <li class="prev">prev</li>
+              <li class="next">next</li>
+            </ul>
+          </div>      
+        </main>
+      </div>
+
+      <div class="more-container"></div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
